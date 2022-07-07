@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1064</width>
+    <height>784</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="imagen_lbl">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>42</y>
+      <width>931</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IMAGEN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_SW1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>210</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SW1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_SW2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>220</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SW2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_BP1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>300</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BP1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_BP2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>310</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BP2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_BV1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>380</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BV1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_BV2">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>390</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BV2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ST">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>60</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start/Stop</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1064</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
